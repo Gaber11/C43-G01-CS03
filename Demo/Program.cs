@@ -113,7 +113,37 @@
             //}
 
 
-                    #endregion
-            }
+            #endregion
+
+            #region 4-Switch with goto [options]
+            //Console.WriteLine("Enter Salary 1000 or 2000 or 3000");
+            //int salary = int.Parse(Console.ReadLine()); 
+            //switch(salary)
+            //{
+            //    case 3000:
+            //        Console.WriteLine("Option 3");
+            //        //Console.WriteLine("Option 2");
+            //        //Console.WriteLine("Option 1");
+            //        goto case 2000;
+            //    case 2000:
+            //        Console.WriteLine("Option 2");
+            //        //Console.WriteLine("Option 1");
+            //        goto case 1000;
+            //    case 1000:
+            //        Console.WriteLine("Option 1");
+            //        break;
+            //    defualt:
+            //        Console.WriteLine("Invalid");
+            //}
+            #endregion
+
+
+
+
+
+
+
+
         }
+    }
 }
