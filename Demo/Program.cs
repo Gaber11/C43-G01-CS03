@@ -36,7 +36,45 @@
 
             #endregion
 
+            #region 2-IF-Switch [Numeric Type 2]
+            //   Example 2[Numeric type: less than or greater than][Age of user]
+            //Console.WriteLine("Enter Your Age: ");
 
+            //int Age; 
+            //int.TryParse(Console.ReadLine(), out Age);
+            //if (Age > 22)
+            //    Console.WriteLine("This user your Age is greater than 22");
+            //else if (Age < 22)
+            //    Console.WriteLine("This user your Age is lesser than 22");
+            //else
+            //    Console.WriteLine("This user your Age is 22");
+
+            //switch (Age)
+            //{
+            //    case > 22:
+            //        Console.WriteLine("This user your Age is greater than 22");
+            //        break;
+
+            //    case < 22:
+            //        Console.WriteLine("This user your Age is lesser than 22");
+            //        break;
+            //    default:
+            //        Console.WriteLine("This user your Age is 22");
+            //        break;
+
+
+            //}
+
+
+
+
+
+
+
+
+
+
+            #endregion
 
 
         }
