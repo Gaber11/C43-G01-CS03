@@ -76,7 +76,44 @@
 
             #endregion
 
+            #region 3-IF-Switch [String Type]
+            //Name of user
+            //Console.WriteLine("Enter Your name: ");
+            //string name= Console.ReadLine();
 
+            //if (name == "Gaber")
+            //    Console.WriteLine("Hello Gaber");
+            //else if (name == "Ahmed")
+            //    Console.WriteLine("Hello Ahmed");
+            //else if (name == "Maha")
+            //    Console.WriteLine("Hello Maha");
+            //else if (name == "Yasser")
+            //    Console.WriteLine("Hello Yasser");
+            //else if (name == "Kareem")
+            //    Console.WriteLine("Hello Kareem");
+            //switch (name)
+            //{
+            //    case "Gaber":
+            //        Console.WriteLine("Hello Gaber");
+            //        break;
+            //    case "Ahmed":
+            //        Console.WriteLine("Hello Ahmed");
+            //        break;
+            //    case "Yasser":
+            //        Console.WriteLine("Hello Yasser");
+            //        break;
+            //    case "Kareem":
+            //        Console.WriteLine("Hello Kareem");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid");
+            //        break;
+
+
+            //}
+
+
+                    #endregion
+            }
         }
-    }
 }
