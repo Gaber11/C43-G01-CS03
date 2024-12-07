@@ -120,22 +120,33 @@
             #endregion
 
             #region 9- Write a program that takes two integers then prints the power.
-            Console.WriteLine("Enter Two Number : ");
-            int Num1 =int.Parse(Console.ReadLine());
-            int Num2 = int.Parse(Console.ReadLine());
-            
-            int PowerResult=1;
-           
+            //Console.WriteLine("Enter Two Number : ");
+            //int Num1 =int.Parse(Console.ReadLine());
+            //int Num2 = int.Parse(Console.ReadLine());
 
-            for (int i = 1 ;i<=Num2; i++)
-            {
+            //int PowerResult=1;
 
-                PowerResult *=Num1;
-            }
-            Console.WriteLine(PowerResult);
+
+            //for (int i = 1 ;i<=Num2; i++)
+            //{
+
+            //    PowerResult *=Num1;
+            //}
+            //Console.WriteLine(PowerResult);
             #endregion
 
-            #region
+            #region 10- Write a program to enter marks of five subjects and calculate total, average and percentage.
+
+            Console.WriteLine("Enter Marks of five subjects:");
+            int sum = 0;
+            for (int i = 0; i <5; i++) 
+            { 
+            int sub=int.Parse(Console.ReadLine());  
+                sum += sub;
+            }
+            Console.WriteLine($"Total marks= {sum}");
+            Console.WriteLine($"Average Marks =  {sum/5}");
+            Console.WriteLine($"Percentage ={sum / 5}");
             #endregion
 
             #region
