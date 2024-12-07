@@ -108,18 +108,31 @@
             #endregion
 
             #region 8- Write a program that allows to user to insert number then print all even numbers between 1 to this number
-           
-            Console.WriteLine("Enter Number : ");
-            int Num = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i < Num; i++)
-            {
-                if (i%2 == 0)
-                    Console.WriteLine(i);
-            }
+            //Console.WriteLine("Enter Number : ");
+            //int Num = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i < Num; i++)
+            //{
+            //    if (i%2 == 0)
+            //        Console.WriteLine(i);
+            //}
             #endregion
 
-            #region
+            #region 9- Write a program that takes two integers then prints the power.
+            Console.WriteLine("Enter Two Number : ");
+            int Num1 =int.Parse(Console.ReadLine());
+            int Num2 = int.Parse(Console.ReadLine());
+            
+            int PowerResult=1;
+           
+
+            for (int i = 1 ;i<=Num2; i++)
+            {
+
+                PowerResult *=Num1;
+            }
+            Console.WriteLine(PowerResult);
             #endregion
 
             #region
