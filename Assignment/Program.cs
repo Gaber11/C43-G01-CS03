@@ -96,44 +96,53 @@
             #endregion
 
             #region 7- Write a program that allows the user to insert an integer then print a multiplication table up to 12.
+            //Console.WriteLine("Enter Number : ");
+            //int Num = int.Parse(Console.ReadLine());
+
+            //for (int i =1; i <= 12; i++)
+            //{
+            //    int multiplication = i * Num;
+
+            //    Console.WriteLine(multiplication);
+            //}
+            #endregion
+
+            #region 8- Write a program that allows to user to insert number then print all even numbers between 1 to this number
+           
             Console.WriteLine("Enter Number : ");
             int Num = int.Parse(Console.ReadLine());
 
-            for (int i =1; i <= 12; i++)
+            for (int i = 1; i < Num; i++)
             {
-                int multiplication = i * Num;
-
-                Console.WriteLine(multiplication);
+                if (i%2 == 0)
+                    Console.WriteLine(i);
             }
-                #endregion
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
-
-            }
+        }
     }
 }
