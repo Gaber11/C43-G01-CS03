@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Reflection.Emit;
 using System.Text;
 using System.Xml.Linq;
@@ -444,21 +445,64 @@ namespace Demo
 
             #endregion
 
-            #region
+            #region 15-2D Array Part 1
+            //int[,] marks = new int[3, 5];
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Enter Grade of student {i+1} ");
+
+            //    for (int j = 0; j < 5; j++)
+            //    {
+
+
+            //        Console.WriteLine($"Enter the grade of subject {j + 1}");
+            //        marks[i, j] = int.Parse(Console.ReadLine());
+
+
+
+            //    }
+            //    Console.WriteLine("==============================");
+
+            //}
+            //======================================================================
+            //int[,] marks = new int[3, 5];
+            //bool flag;
+            //int Grade;
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Enter Grade of student {i + 1} ");
+
+            //    for (int j = 0; j < 5;)
+            //    {
+
+
+            //        Console.WriteLine($"Enter the grade of subject {j + 1}");
+            //        j = int.TryParse(Console.ReadLine(), out Grade) ? ++j : j;
+            //        marks[i, j] = Grade;
+
+            //    }
+
+            //    Console.WriteLine("================هنا بعد ما بعمل أول طالب البرنامج بينتهي !==============");
+
+            //}
+
+
 
             #endregion
 
             #region
+        
+
+
+
+
+
 
             #endregion
 
-            #region
 
-            #endregion
 
-            #region
-
-            #endregion
 
 
         }
