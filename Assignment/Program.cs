@@ -287,29 +287,41 @@ namespace Assignment
             #endregion
 
             #region 18- Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task. A worker's efficiency level is determined as follows: 
-            Console.WriteLine("Enter the time taken for the task ");
-            int time= int.Parse(Console.ReadLine());
-            switch (time)
-            {
-                case >=2 and <3:
-                    Console.WriteLine("they are considered highly efficient. ");
-                    break;
-                case >= 3 and < 4:
-                    Console.WriteLine("they are instructed to increase their speed. ");
-                    break;
-                case >= 4 and < 5:
-                    Console.WriteLine("they are provided with training to enhance their speed.  ");
-                    break;
-                case > 5:
-                    Console.WriteLine("they are required to leave the company. ");
-                    break;
+            //Console.WriteLine("Enter the time taken for the task ");
+            //int time= int.Parse(Console.ReadLine());
+            //switch (time)
+            //{
+            //    case >=2 and <3:
+            //        Console.WriteLine("they are considered highly efficient. ");
+            //        break;
+            //    case >= 3 and < 4:
+            //        Console.WriteLine("they are instructed to increase their speed. ");
+            //        break;
+            //    case >= 4 and < 5:
+            //        Console.WriteLine("they are provided with training to enhance their speed.  ");
+            //        break;
+            //    case > 5:
+            //        Console.WriteLine("they are required to leave the company. ");
+            //        break;
 
-            }
+            //}
 
 
             #endregion
 
-            #region
+            #region 19-Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
+            Console.Write("Enter the size of the identity matrix: ");
+            int n = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    Console.Write("*");
+                }
+            Console.WriteLine();
+            }
+
 
             #endregion
 
