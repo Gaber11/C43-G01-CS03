@@ -14,8 +14,8 @@ namespace Demo
 
     internal class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args)        {
+
             #region 1-IF - Switch [Numeric Type 1]
             //A] Conditional statement [If, Switch till c# 6]
             //Example 1 [Numeric type: Equality] [Month in first quarter]
@@ -265,7 +265,26 @@ namespace Demo
             //Console.WriteLine(Message);
             #endregion
 
-            #region
+            #region 8-Loop Statements[for-while-Do While-foreach]         
+
+           //Console.WriteLine(10+10);
+           //Console.WriteLine(20+10);
+           //Console.WriteLine(30+10);
+           //Console.WriteLine(40+10);
+           //Console.WriteLine(50+10);
+           //Console.WriteLine(60+10);
+           //Console.WriteLine(70+10);
+           //Console.WriteLine(80+10);
+           //Console.WriteLine(90+10);
+           //Console.WriteLine("*******************************");
+
+           // for(int i =10; i <= 100; i+=10)
+           // {
+           //     Console.WriteLine(i);
+           // }
+
+
+
 
             #endregion
 
