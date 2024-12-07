@@ -242,27 +242,61 @@ namespace Assignment
             #endregion
 
             #region 15-Write a program in C# Sharp to find prime numbers within a range of numbers.
-            Console.Write("Input starting number of range: ");
-            int startingnumber = int.Parse(Console.ReadLine());
-            
-            Console.Write("Input ending number of range: ");
-            int endingnumber = int.Parse(Console.ReadLine());
+            //Console.Write("Input starting number of range: ");
+            //int startingnumber = int.Parse(Console.ReadLine());
 
-            int prime;
-            for (int i = startingnumber; i <= endingnumber; i+=2)
-            {
-             if (i % i == 0 && i % 1 == 0 && i != 1) 
-                Console.WriteLine(i);
+            //Console.Write("Input ending number of range: ");
+            //int endingnumber = int.Parse(Console.ReadLine());
 
-                
-            }
+            //int prime;
+            //for (int i = startingnumber; i <= endingnumber; i+=2)
+            //{
+            // if (i % i == 0 && i % 1 == 0 && i != 1) 
+            //    Console.WriteLine(i);
 
-                            
+
+            //}
+
+
+
+            #endregion
+
+            #region 16- . Write a program in C# Sharp to convert a decimal number into binary without using an array.
+            //Console.WriteLine("Enter a number to convert : ");
+            //double DecimalNum=double.Parse(Console.ReadLine());  
+            //// ????
+
+
 
             #endregion
 
             #region
+
+
+
+
             #endregion
+
+            #region
+
+            #endregion
+
+            #region
+
+            #endregion
+
+            #region
+
+            #endregion
+
+
+
+
+
+
+
+
+
 
         }
     }
