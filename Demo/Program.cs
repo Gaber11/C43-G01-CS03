@@ -418,6 +418,48 @@ namespace Demo
 
             #endregion
 
+            #region 13-1D Array
+            //int[] Num= new int[5];
+            //Num [0] = 1;    
+            //Num [1] = 2;
+            //Num [2] = 3;
+            //Num [3] = 4;
+            //Num [4] = 5;
+            //for (int i = 0; i < Num.Length; i++)
+            //{
+            //    Console.WriteLine(Num [i]); 
+            //}
+
+            //int[]Numbers1 =  new int[] { 1, 2, 3,4 };
+            //int[] Numbers2 = new int[5] { 1, 2, 3, 4,5 };
+            //int[] Numbers3 = {1,2,3,4 };
+
+            //for (int i = 0; i < Numbers3.Length; i++)
+            //{
+            //    Console.WriteLine(Numbers3[i]);
+            //}
+
+
+
+
+            #endregion
+
+            #region
+
+            #endregion
+
+            #region
+
+            #endregion
+
+            #region
+
+            #endregion
+
+            #region
+
+            #endregion
+
 
         }
     }
