@@ -267,21 +267,40 @@ namespace Demo
 
             #region 8-Loop Statements[for-while-Do While-foreach]         
 
-           //Console.WriteLine(10+10);
-           //Console.WriteLine(20+10);
-           //Console.WriteLine(30+10);
-           //Console.WriteLine(40+10);
-           //Console.WriteLine(50+10);
-           //Console.WriteLine(60+10);
-           //Console.WriteLine(70+10);
-           //Console.WriteLine(80+10);
-           //Console.WriteLine(90+10);
-           //Console.WriteLine("*******************************");
+            //Console.WriteLine(10+10);
+            //Console.WriteLine(20+10);
+            //Console.WriteLine(30+10);
+            //Console.WriteLine(40+10);
+            //Console.WriteLine(50+10);
+            //Console.WriteLine(60+10);
+            //Console.WriteLine(70+10);
+            //Console.WriteLine(80+10);
+            //Console.WriteLine(90+10);
+            //Console.WriteLine("*******************************");
 
-           // for(int i =10; i <= 100; i+=10)
-           // {
-           //     Console.WriteLine(i);
-           // }
+            // for(int i =10; i <= 100; i+=10)
+            // {
+            //     Console.WriteLine(i);
+            // }
+
+
+
+
+            #endregion
+
+            #region 9-For - Foreach
+            //int[] number = { 1, 2, 3, 4, 5 };
+            //for (int i = 0; i < number.Length; i++)
+            //{
+            //    Console.WriteLine(number[i]);
+            //}
+
+            //foreach (int i in number)
+            //{
+
+            //    Console.WriteLine(i);
+
+            //}
 
 
 
@@ -295,6 +314,12 @@ namespace Demo
             #region
 
             #endregion
+
+            #region
+
+            #endregion
+
+
         }
     }
 }
