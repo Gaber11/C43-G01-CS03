@@ -268,25 +268,44 @@ namespace Assignment
             #endregion
 
             #region 17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
-            Console.WriteLine("Enter the first point (x1, y1):");
-            int x1 = int.Parse(Console.ReadLine());
-            int y1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the first point (x1, y1):");
+            //int x1 = int.Parse(Console.ReadLine());
+            //int y1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter the second point (x2, y2):");
-            int x2 = int.Parse(Console.ReadLine());
-            int y2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the second point (x2, y2):");
+            //int x2 = int.Parse(Console.ReadLine());
+            //int y2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter the third point (x3, y3):");
-            int x3 = int.Parse(Console.ReadLine());
-            int y3 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the third point (x3, y3):");
+            //int x3 = int.Parse(Console.ReadLine());
+            //int y3 = int.Parse(Console.ReadLine());
 
-            //???
+            ////???
 
 
 
             #endregion
 
-            #region
+            #region 18- Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task. A worker's efficiency level is determined as follows: 
+            Console.WriteLine("Enter the time taken for the task ");
+            int time= int.Parse(Console.ReadLine());
+            switch (time)
+            {
+                case >=2 and <3:
+                    Console.WriteLine("they are considered highly efficient. ");
+                    break;
+                case >= 3 and < 4:
+                    Console.WriteLine("they are instructed to increase their speed. ");
+                    break;
+                case >= 4 and < 5:
+                    Console.WriteLine("they are provided with training to enhance their speed.  ");
+                    break;
+                case > 5:
+                    Console.WriteLine("they are required to leave the company. ");
+                    break;
+
+            }
+
 
             #endregion
 
