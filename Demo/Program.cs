@@ -239,8 +239,30 @@ namespace Demo
 
             #endregion
 
-            #region
+            #region 7-Switch in C# 9.0
 
+            //     Example 2[Person]
+            //Person person = new Person() { Id = 100, Name = "Gaber", Age = 30 };
+            //switch (person)
+            //{
+            //    case { Id: 100, Name: "Gaber", Age:> 22 and <40 }:
+            //        Console.WriteLine($"Your name is Gaber and your age = {person.Age}");
+            //        break;
+            //    case { Age: 24 }:
+            //        Console.WriteLine("Your age is 24");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Your name is 8arib");
+            //        break;
+            //}
+
+            //string Message = person switch
+            //{
+            //    { Name: "Gaber", Age:> 23 and <40, Id: 100 } => $"Your name is Gaber and your age = {person.Age}",
+            //    { Age: 24 } => " your age = 24",
+            //    _ => "Invalid"
+            //};
+            //Console.WriteLine(Message);
             #endregion
 
             #region
