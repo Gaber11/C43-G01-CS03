@@ -1,5 +1,12 @@
 ﻿namespace Demo
 {
+    //class Person
+    //{
+    //    public int Id { get; set; }
+    //    public string Name { get; set; }
+    //}
+
+
     internal class Program
     {
         static void Main(string[] args)
@@ -137,7 +144,42 @@
             //}
             #endregion
 
+            #region 5-Switch in C# 7.0
+            //object input;
+            ////4 bytes in stack
+            ////0 bytes in heap
+            //// refer to null
+            //input = new object();
+            ////-------->NEW
+            ////1]Allocate number of bytes needed in the heap
+            ////2] Assign defualt value in heap [NULL]
+            ////3] Call user defined constructor if exist
+            ////4] Assign the refernce in stack to the obj in heap
+            //input = 14;
+            //switch (input)
+            //{
+            //    case int localInput when localInput >10 && localInput<15:
+            //        Console.WriteLine($"integer input ==> {localInput}");
+            //        break;
+            //    case double localInput:
+            //        Console.WriteLine("double input");
+            //        break;
+            //    case Person LocalInput:
+            //        Console.WriteLine("Person input");
+            //        break;
+            //    default:
+            //        break;
 
+            //}
+
+
+
+
+
+
+
+
+            #endregion
 
 
 
