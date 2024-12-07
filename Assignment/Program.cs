@@ -21,13 +21,32 @@
 
             //Console.WriteLine("Enter Number to know if it positive or negative:");
             //int Num = int.Parse(Console.ReadLine());
-           
+
             //string result = Num <0 ? "negative" :"Positive";
             //Console.WriteLine(result);
 
             #endregion
 
-            #region
+            #region 3- Write a program that takes 3 integers from the user then prints the max element and the min element.
+
+            Console.WriteLine("Enter 3 Numbers: ");
+            int Num1=int.Parse(Console.ReadLine());
+            int Num2=int.Parse(Console.ReadLine());
+            int Num3=int.Parse(Console.ReadLine());
+            int MaxElement;
+            int MinElement;
+
+            MaxElement = Num1 > Num2 ? (Num1 > Num3 ? Num1 : Num3) : (Num2 > Num3 ? Num2 : Num3);
+            MinElement = Num1 < Num2 ? (Num1 < Num3 ? Num1 : Num3) : (Num2 < Num3 ? Num2 : Num3);
+
+
+            Console.WriteLine($"MaxElement= {MaxElement}");
+            Console.WriteLine($"MinElement= {MinElement}");
+
+
+
+
+
             #endregion
 
             #region
