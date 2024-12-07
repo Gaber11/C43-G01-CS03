@@ -307,7 +307,45 @@ namespace Demo
 
             #endregion
 
-            #region
+            #region 10-While - Do While
+            //Console.WriteLine("Enter Even Number");
+            //int num = int.Parse(Console.ReadLine());
+            //while (num % 2 == 1)
+            //{
+            //    Console.WriteLine("Enter Even Number");
+            //    num = int.Parse(Console.ReadLine());
+
+            //}
+            //Console.Clear();
+            //Console.WriteLine($"Even number is {num}");
+        
+            
+            //int num;
+            //bool flag;
+
+            //do
+            //{
+
+
+            //    Console.WriteLine("Enter Even Number");
+            //  flag= int.TryParse(Console.ReadLine(),out num);
+            //} while (num % 2 == 1 || !flag);
+
+            //Console.Clear();
+            //Console.WriteLine($"Even number is {num}");
+
+            //int i=0;
+            ////do
+            ////{
+            ////    Console.WriteLine(i);
+            ////    i++;
+            ////}while (i<5);  
+
+            //while (i<5)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
 
             #endregion
 
