@@ -1,10 +1,15 @@
-﻿namespace Demo
+﻿using System;
+using System.Reflection.Emit;
+
+namespace Demo
 {
-    //class Person
-    //{
-    //    public int Id { get; set; }
-    //    public string Name { get; set; }
-    //}
+    class Person
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+
+    }
 
 
     internal class Program
@@ -181,11 +186,74 @@
 
             #endregion
 
+            #region 6-Switch in C# 8.0
+            //Console.WriteLine("Enter an option [1 ,2, 3]");
+            //string message;
+            //string option=Console.ReadLine();
 
+            //switch (option) {
+            //    case "1":
+            //        message = "option 1";
+            //        break;
+            //    case "2":
+            //        message = "option 2";
+            //        break;
+            //    case "3":
+            //        message = "option 3";
+            //        break;
+            //    defualt:
+            //        message = "Invalid";
+            //        break;
 
+            //}
+            //message = option switch
+            //{
+            //    "1"=>"option 1",
+            //    "2" => "option 2",
+            //    "3" => "option 3",
+            //    _ => "Invalid"
+            //};
+            //Console.WriteLine(message);
 
+            // Example 2 [Person]
+            //Person person = new Person() { Id = 100, Name = "Gaber", Age = 25 };
+            //switch (person)
+            //    {
+            //        case { Id: 100, Name: "Gaber", Age: 22 }:
+            //            Console.WriteLine("Your name is Gaber and your age = 22");
+            //            break;
+            //        case { Age: 24 }:                
+            //            Console.WriteLine("Your age is 24");
+            //            break;
+            //        default:
+            //            Console.WriteLine("Your name is 8arib");
+            //            break;
+            //    }
+            //string Message = person switch
+            //{
+            //    { Name : "Gaber" , Age:23 , Id:100}=> "Your name is Gaber and your age = 23",
+            //    {Age: 24} => " your age = 24",
+            //    _=> "Invalid"
+            //};
+            //Console.WriteLine(Message);
 
+            #endregion
 
+            #region
+
+            #endregion
+
+            #region
+
+            #endregion
+
+            #region
+
+            #endregion
+
+            #region
+
+            #endregion
         }
     }
 }
