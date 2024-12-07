@@ -139,53 +139,78 @@
 
             //Console.WriteLine("Enter Marks of five subjects:");
             //int sum = 0;
-            //for (int i = 0; i <5; i++) 
-            //{ 
-            //int sub=int.Parse(Console.ReadLine());  
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    int sub = int.Parse(Console.ReadLine());
             //    sum += sub;
             //}
             //Console.WriteLine($"Total marks= {sum}");
-            //Console.WriteLine($"Average Marks =  {sum/5}");
+            //Console.WriteLine($"Average Marks =  {sum / 5}");
             //Console.WriteLine($"Percentage ={sum / 5}");
             #endregion
 
             #region 11- Write a program to input the month number and print the number of days in that month.
 
-            Console.Write("Month Number: ");
-            int Num= int.Parse(Console.ReadLine());
+            //Console.Write("Month Number: ");
+            //int Num= int.Parse(Console.ReadLine());
 
-            switch (Num)
+            //switch (Num)
+            //{
+            //    case 1: Console.WriteLine("Days in Month: 31");
+            //        break;
+            //    case 2: Console.WriteLine("Days in Month: 28");
+            //        break;
+            //    case 3: goto case 1;
+            //        break;
+            //    case 4: Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 5: goto case 1;
+            //        break;
+            //    case 6: goto case 4;
+            //        break;
+            //    case 7: goto case 1;
+            //        break;
+            //    case 8: goto case 1;
+            //        break;
+            //    case 9: goto case 4;
+            //        break;
+            //    case 10:goto case 1;
+            //        break;
+            //    case 11:goto case 4;
+            //        break;
+            //    case 12:goto case 1;
+            //        break;
+            //}
+
+            #endregion
+
+            #region 12- Write a program to create a Simple Calculator.
+            Console.WriteLine("*********Welcome in Simple Calculator [+ , - , * , / ]*********");
+
+            Console.Write("Enter the operator: ");
+            char operat = char.Parse(Console.ReadLine());
+                
+            while (operat=='+'|| operat == '-' || operat == '*' || operat == '/')
             {
-                case 1: Console.WriteLine("Days in Month: 31");
-                    break;
-                case 2: Console.WriteLine("Days in Month: 28");
-                    break;
-                case 3: goto case 1;
-                    break;
-                case 4: Console.WriteLine("Days in Month: 30");
-                    break;
-                case 5: goto case 1;
-                    break;
-                case 6: goto case 4;
-                    break;
-                case 7: goto case 1;
-                    break;
-                case 8: goto case 1;
-                    break;
-                case 9: goto case 4;
-                    break;
-                case 10:goto case 1;
-                    break;
-                case 11:goto case 4;
-                    break;
-                case 12:goto case 1;
-                    break;
+
+                Console.Write("Enter Number 1: ");
+                int Num1 = int.Parse(Console.ReadLine());
+                Console.Write("Enter Number 2: ");
+                int Num2 = int.Parse(Console.ReadLine());
+                if (operat == '+')
+                    Console.WriteLine($"{Num1} + {Num2} = {Num1 + Num2}");
+                else if (operat == '-')
+                    Console.WriteLine($"{Num1} - {Num2} = {Num1 - Num2}");
+                else if (operat == '*')
+                    Console.WriteLine($"{Num1} * {Num2} = {Num1 * Num2}");
+                else if (operat == '/')
+                    Console.WriteLine($"{Num1} / {Num2} = {Num1 / Num2}");
+                Console.WriteLine("=========================================");
+                Console.Write("Enter the operator: ");
+                 operat = char.Parse(Console.ReadLine());
             }
-
-            #endregion
-
-            #region
-            #endregion
+            Console.WriteLine("Invalid operator");
+               #endregion
 
             #region
             #endregion
