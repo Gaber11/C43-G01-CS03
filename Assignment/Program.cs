@@ -29,19 +29,19 @@
 
             #region 3- Write a program that takes 3 integers from the user then prints the max element and the min element.
 
-            Console.WriteLine("Enter 3 Numbers: ");
-            int Num1=int.Parse(Console.ReadLine());
-            int Num2=int.Parse(Console.ReadLine());
-            int Num3=int.Parse(Console.ReadLine());
-            int MaxElement;
-            int MinElement;
+            //Console.WriteLine("Enter 3 Numbers: ");
+            //int Num1=int.Parse(Console.ReadLine());
+            //int Num2=int.Parse(Console.ReadLine());
+            //int Num3=int.Parse(Console.ReadLine());
+            //int MaxElement;
+            //int MinElement;
 
-            MaxElement = Num1 > Num2 ? (Num1 > Num3 ? Num1 : Num3) : (Num2 > Num3 ? Num2 : Num3);
-            MinElement = Num1 < Num2 ? (Num1 < Num3 ? Num1 : Num3) : (Num2 < Num3 ? Num2 : Num3);
+            //MaxElement = Num1 > Num2 ? (Num1 > Num3 ? Num1 : Num3) : (Num2 > Num3 ? Num2 : Num3);
+            //MinElement = Num1 < Num2 ? (Num1 < Num3 ? Num1 : Num3) : (Num2 < Num3 ? Num2 : Num3);
 
 
-            Console.WriteLine($"MaxElement= {MaxElement}");
-            Console.WriteLine($"MinElement= {MinElement}");
+            //Console.WriteLine($"MaxElement= {MaxElement}");
+            //Console.WriteLine($"MinElement= {MinElement}");
 
 
 
@@ -49,7 +49,20 @@
 
             #endregion
 
-            #region
+            #region 4-Write a program that allows the user to insert an integer number then check If a number is even or odd.
+
+            Console.WriteLine("Enter Number to check If a number is even or odd: ");
+            int Num= int.Parse(Console.ReadLine());
+            if (Num % 2 == 0)
+                Console.WriteLine("Even");
+
+            else
+                Console.WriteLine("Odd");
+
+
+
+
+
             #endregion
 
             #region
