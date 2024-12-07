@@ -491,8 +491,29 @@ namespace Demo
 
             #endregion
 
-            #region
-        
+            #region  16-2D Array Part 2
+            //int[,] marks = new int[3, 5];
+            ////bool flag;
+            ////int Grade;
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Enter Grade of student {i + 1} ");
+
+            //    for (int j = 0; j < 5;)
+            //    {
+
+
+            //        Console.WriteLine($"Enter the grade of subject {j + 1}");
+            //        j = int.TryParse(Console.ReadLine(), out marks[i, j]) ? ++j : j;
+
+            //    }
+
+            //    Console.WriteLine("===============تم حل المشكلة==============");
+
+            //}
+
+
 
 
 
