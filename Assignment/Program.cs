@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Text;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -185,34 +187,49 @@
             #endregion
 
             #region 12- Write a program to create a Simple Calculator.
-            Console.WriteLine("*********Welcome in Simple Calculator [+ , - , * , / ]*********");
+            //Console.WriteLine("*********Welcome in Simple Calculator [+ , - , * , / ]*********");
 
-            Console.Write("Enter the operator: ");
-            char operat = char.Parse(Console.ReadLine());
-                
-            while (operat=='+'|| operat == '-' || operat == '*' || operat == '/')
+            //Console.Write("Enter the operator: ");
+            //char operat = char.Parse(Console.ReadLine());
+
+            //while (operat=='+'|| operat == '-' || operat == '*' || operat == '/')
+            //{
+
+            //    Console.Write("Enter Number 1: ");
+            //    int Num1 = int.Parse(Console.ReadLine());
+            //    Console.Write("Enter Number 2: ");
+            //    int Num2 = int.Parse(Console.ReadLine());
+            //    if (operat == '+')
+            //        Console.WriteLine($"{Num1} + {Num2} = {Num1 + Num2}");
+            //    else if (operat == '-')
+            //        Console.WriteLine($"{Num1} - {Num2} = {Num1 - Num2}");
+            //    else if (operat == '*')
+            //        Console.WriteLine($"{Num1} * {Num2} = {Num1 * Num2}");
+            //    else if (operat == '/')
+            //        Console.WriteLine($"{Num1} / {Num2} = {Num1 / Num2}");
+            //    Console.WriteLine("=========================================");
+            //    Console.Write("Enter the operator: ");
+            //     operat = char.Parse(Console.ReadLine());
+            //}
+            //Console.WriteLine("Invalid operator");
+            #endregion
+
+            #region 13- Write a program to allow the user to enter a string and print the REVERSE of it.
+            Console.WriteLine("Enter a string");
+            string letter = Console.ReadLine();
+            string reversed = "";
+            for (int i = letter.Length-1; i >= 0; i--)
             {
 
-                Console.Write("Enter Number 1: ");
-                int Num1 = int.Parse(Console.ReadLine());
-                Console.Write("Enter Number 2: ");
-                int Num2 = int.Parse(Console.ReadLine());
-                if (operat == '+')
-                    Console.WriteLine($"{Num1} + {Num2} = {Num1 + Num2}");
-                else if (operat == '-')
-                    Console.WriteLine($"{Num1} - {Num2} = {Num1 - Num2}");
-                else if (operat == '*')
-                    Console.WriteLine($"{Num1} * {Num2} = {Num1 * Num2}");
-                else if (operat == '/')
-                    Console.WriteLine($"{Num1} / {Num2} = {Num1 / Num2}");
-                Console.WriteLine("=========================================");
-                Console.Write("Enter the operator: ");
-                 operat = char.Parse(Console.ReadLine());
-            }
-            Console.WriteLine("Invalid operator");
-               #endregion
+                reversed += letter[i];
 
-            #region
+
+            }
+            Console.Write($"Reversed letter :{reversed} ");
+
+
+
+
             #endregion
 
             #region
