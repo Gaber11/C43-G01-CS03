@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection.Emit;
+using System.Xml.Linq;
 
 namespace Demo
 {
@@ -318,8 +319,8 @@ namespace Demo
             //}
             //Console.Clear();
             //Console.WriteLine($"Even number is {num}");
-        
-            
+
+
             //int num;
             //bool flag;
 
@@ -349,8 +350,25 @@ namespace Demo
 
             #endregion
 
-            #region
-
+            #region 11-String
+            //string Name1 = "Mariam";
+            //string Name2 = "Amira";
+            //Console.WriteLine(Name1);
+            //Console.WriteLine(Name2);
+            //Console.WriteLine(Name1.GetHashCode());
+            //Console.WriteLine(Name2.GetHashCode());
+            //Name2 = Name1;
+            //Console.WriteLine("*************After = **:"); ;
+            //Console.WriteLine(Name1);
+            //Console.WriteLine(Name2);
+            //Console.WriteLine(Name1.GetHashCode());
+            //Console.WriteLine(Name2.GetHashCode());
+            //Name1 = "MariamYasser";
+            //Console.WriteLine("****After Changing Name");
+            //Console.WriteLine(Name1);
+            //Console.WriteLine(Name2);
+            //Console.WriteLine(Name1.GetHashCode());
+            //Console.WriteLine(Name2.GetHashCode());
             #endregion
 
             #region
