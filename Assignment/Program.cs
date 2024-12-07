@@ -265,13 +265,22 @@ namespace Assignment
             //Console.WriteLine("Enter a number to convert : ");
             //double DecimalNum=double.Parse(Console.ReadLine());  
             //// ????
-
-
-
             #endregion
 
-            #region
+            #region 17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+            Console.WriteLine("Enter the first point (x1, y1):");
+            int x1 = int.Parse(Console.ReadLine());
+            int y1 = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("Enter the second point (x2, y2):");
+            int x2 = int.Parse(Console.ReadLine());
+            int y2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the third point (x3, y3):");
+            int x3 = int.Parse(Console.ReadLine());
+            int y3 = int.Parse(Console.ReadLine());
+
+            //???
 
 
 
