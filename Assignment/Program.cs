@@ -67,13 +67,13 @@
 
             #region 5- Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u) then print (vowel) otherwise print (consonant).
 
-            Console.WriteLine("Enter character : ");
-            char Char =char.Parse( Console.ReadLine());
-           
-            if (Char == 'a' || Char == 'e' || Char == 'i' || Char == 'u' || Char == 'o')
-                Console.WriteLine("vowel");
-            else
-                Console.WriteLine("consonant");
+            //Console.WriteLine("Enter character : ");
+            //char Char =char.Parse( Console.ReadLine());
+
+            //if (Char == 'a' || Char == 'e' || Char == 'i' || Char == 'u' || Char == 'o')
+            //    Console.WriteLine("vowel");
+            //else
+            //    Console.WriteLine("consonant");
 
 
 
@@ -81,7 +81,18 @@
 
             #endregion
 
-            #region
+            #region 6- Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
+
+            Console.WriteLine("Enter Number : ");
+            int Num =int.Parse(Console.ReadLine());
+            for (int i = 1; i <= Num; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+
+
+
             #endregion
 
             #region
