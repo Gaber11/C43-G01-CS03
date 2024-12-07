@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection.Emit;
+using System.Text;
 using System.Xml.Linq;
 
 namespace Demo
@@ -369,9 +370,51 @@ namespace Demo
             //Console.WriteLine(Name2);
             //Console.WriteLine(Name1.GetHashCode());
             //Console.WriteLine(Name2.GetHashCode());
+
+            // Example 2 [Message +=]
+            //string Message = "Hello"; //Unreachable
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+            //Console.WriteLine("** ***After Change:");
+
+            //Message += " Mariam";
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+
             #endregion
 
-            #region
+            #region 12-StringBuilder
+            //StringBuilder --> is a reference type [Class]
+            //Mutable
+            //is a linkedList
+            //StringBuilder Name1 = new StringBuilder("Gaber");
+            //StringBuilder Name2 = new StringBuilder();
+            //Name2.Append("Amira");
+            //Console.WriteLine(Name1);
+            //Console.WriteLine(Name2);
+            //Console.WriteLine(Name1.GetHashCode());
+            //Console.WriteLine(Name2.GetHashCode());
+            //Console.WriteLine("***********");
+
+            //Name2 = Name1;
+            //Console.WriteLine(Name1);
+            //Console.WriteLine(Name2);
+            //Console.WriteLine(Name1.GetHashCode());
+            //Console.WriteLine(Name2.GetHashCode()); 
+            //Console.WriteLine("*****");
+            //Name1.Append(" eZZAT");
+            ////============================
+            //// StringBuilderMethods
+            //Name1.AppendLine(" Yasser");
+            //Name1.Append("Hello");
+            ////Console.WriteLine(Name1);
+            //Name1.Insert(0, "Hello ");
+            //Name1.Remove(0, 5);
+            //Console.WriteLine(Name1);
+            //Console.WriteLine("*************************");
+            //Name1.Replace("Hello", "HelloNew");
+            //Console.WriteLine(Name1);
+
 
             #endregion
 
