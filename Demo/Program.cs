@@ -21,6 +21,19 @@
 
             #endregion
 
+            #region (Function)2-Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example.
+
+            //int[] numbers = { 1, 2, 3 };
+            //int result = sum(numbers);
+            //Console.WriteLine(result);
+            //Console.WriteLine(numbers[0]);
+            
+            //int[] numbers = { 1, 2, 3 };
+            //int result = sum(ref numbers);
+            //Console.WriteLine(result);
+            //Console.WriteLine(numbers[0]);
+
+            #endregion
 
 
 
@@ -38,5 +51,28 @@
         //}
         #endregion
 
+        #region Q2)
+        static int sum(ref int[] arr)
+        {
+            int sum = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+
+
+                if (arr is not null)
+                {
+                    sum += arr[i];
+                    arr = new int[3] { 100, 200, 300 };
+                    for (int j= 0; j < arr.Length; j++)
+                    {
+                        sum += arr[j];
+
+
+                    }
+                }
+            }
+            return sum;
+        }
+        #endregion
     }
 }
